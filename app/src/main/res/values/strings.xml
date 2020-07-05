@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Golden Pig</string>
+
+    <!--Đăng nhập-->
+    <string name="tendangnhap">Tên đăng nhập</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="dangky">Đăng ký</string>
+    <string name="quenmatkhau">Quên mật khẩu</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="mabimat">Mã số bí mật</string>
+
+    <!--Quên mật khẩu-->
+    <string name="matkhaumoi">Mật khẩu mới</string>
+    <string name="nhaplaimatkhau">Nhập lại mật khẩu</string>
+    <string name="taomatkhau">Tạo mật khẩu</string>
+
+    <!--Đăng ký-->
+    <string name="xoatrang">Xóa trắng</string>
+    <string name="luuy">Lưu ý: Bạn nên ghi nhớ kỹ mã số này, mã số này được dùng để khôi phục mật khẩu!</string>
+    <string name="title_activity_giaodien">GiaodienActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_QuanLyThuChi">Quản lý thu chi</string>
+    <string name="menu_QuanLyVi">Quản lý ví</string>
+    <string name="menu_QuanLyTaiKhoan">Quản lý tài khoản</string>
+    <string name="menu_QuanLyNhomThuChi">Quản lý danh mục thu chi</string>
+    <string name="menu_ThongKeThuChi">Thống kê thu chi</string>
+
+
+    <string-array name="navigation">
+        <item>Thêm giao dịch</item>
+        <item>Xem giao dịch</item>
+        <item>Thu chi</item>
+        <item>Thống kê</item>
+        <item>Cài đặt</item>
+        <item>Đăng xuất</item>
+        <item>Thoát</item>
+    </string-array>
+
+    <string-array name="loaithuchi">
+        <item>Khoản thu</item>
+        <item>Khoản chi</item>
+    </string-array>
+
+    <string-array name="loaithuchichokehoachtietkiem">
+        <item>Thu vào</item>
+        <item>Chi ra</item>
+    </string-array>
+
+    <!--Giao dịch-->
+    <string name="taikhoan">Tài khoản</string>
+    <string name="loaigiaodich">Loại giao dịch</string>
+    <string name="sotien">Số tiền</string>
+    <string name="nhapsotien">Nhập số tiền</string>
+    <string name="lydo">Lý do</string>
+    <string name="nhaplydo">Nhập lý do</string>
+    <string name="phannhom">Phân nhóm</string>
+    <string name="trangthai">Trạng thái giao dịch</string>
+    <string name="ngaygiaodich">Ngày giao dịch</string>
+    <string name="hientai">Hiện tại</string>
+    <string name="luu">Lưu</string>
+    <string name="luuvadong">Lưu &amp; Đóng</string>
+    <string name="title_activity_trangchu">TrangchuActivity</string>
+
+    <string name="title_shop">Shop</string>
+    <string name="title_gifts">Gifts</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_actovity">HomeActovity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Giới thiệu-->
+    <string name="nav_header_title">Ứng dụng quản lý thu chi dành cho sinh viên</string>
+    <string name="nav_header_subtitle">Nguyễn Đình Thuận - Bùi Đức Thuận Phát</string>
+
+    <!--Menu-->
+    <string name="action_settings">Them thu chi</string>
+
+    <!--Spinner chọn loại thống kê-->
+    <string-array name="chonloailichsuthuchi">
+        <item>HÔM NAY</item>
+        <item>THÁNG NÀY</item>
+        <item>NĂM NAY</item>
+    </string-array>
+
+    <!--Thống kê tổng-->
+    <string-array name="thongketong">
+        <item>Tổng thu</item>
+        <item>Tổng chi</item>
+    </string-array>
+
+    <!--Trạng thái của kế hoạch tiết kiệm-->
+    <string-array name="trangthaicuakehoachtietkiem">
+        <item>Đang thực hiện</item>
+        <item>Đã kết thúc - Kế hoạch thành công</item>
+        <item>Đã kết thúc - Kế hoạch thất bại</item>
+    </string-array>
+    <string name="title_activity_tai_khoan">TaiKhoanActivity</string>
+
+    <string name="channel_name">Name</string>
+    <string name="channel_description">Description</string>
+</resources>

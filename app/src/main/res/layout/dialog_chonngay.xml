@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Chọn ngày"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="24dp"/>
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:layout_gravity="center"
+
+        android:calendarTextColor="#000000"
+        style=""/>
+    <Button
+        android:id="@+id/button_ChonNgayXong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary1"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_background_fragment"
+    android:orientation="vertical"
+    android:padding="13dp">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật ví"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView_NhapTenViCapNhat"
+        style="@style/WhiteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên ví"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/editText_NhapTenViCapNhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập tên ví"
+        android:background="@drawable/main_edittext"
+        android:inputType="text"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView_NhapMoTaViCapNhat"
+        style="@style/WhiteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Mô tả ví"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editText_NhapMoTaViCapNhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mô tả ví"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_edittext" />
+
+    <TextView
+        android:id="@+id/textView_NhapSoTienCapNhat"
+        style="@style/WhiteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Số tiền"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="#000000" />
+
+    <com.aldoapps.autoformatedittext.AutoFormatEditText
+        android:id="@+id/editText_NhapSoTienCapNhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_edittext"
+        android:inputType="number"
+        android:textColor="#000000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/button_LuuCapNhatVi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/confirm_button"
+            android:text="Lưu"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button_HuyCapNhatVi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/cancel_button"
+            android:text="Hủy"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</LinearLayout>

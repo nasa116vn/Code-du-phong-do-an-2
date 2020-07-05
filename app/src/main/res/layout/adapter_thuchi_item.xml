@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_listview_item">
+
+    <ImageView
+        android:id="@+id/txtIconThuChi"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/money_out"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtNgayThuChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toLeftOf="@+id/txtTienThuChi"
+        android:layout_toRightOf="@id/txtIconThuChi"
+        android:text="Ngay thu chi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtTienThuChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Tien thu chi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtLoaiKhoanThuChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNgayThuChi"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="45dp"
+        android:text="Khoan thu"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtDanhMucThuChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNgayThuChi"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/txtLoaiKhoanThuChi"
+        android:text="Danh muc thu chi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtViTieuDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNgayThuChi"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/txtViThuChi"
+        android:text="Ví:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginRight="5dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtViThuChi"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/txtNgayThuChi"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtDanhMucThuChi"
+        android:layout_alignParentRight="true"
+        android:text="Vi thu chi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtMoTaThuChiTieuDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLoaiKhoanThuChi"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="5dp"
+        android:text="Mô tả:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginRight="5dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtMoTaThuChi"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/txtLoaiKhoanThuChi"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtMoTaThuChiTieuDe"
+        android:text="mo ta thu chi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/txtThongBao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:textAlignment="center"
+        android:layout_below="@+id/txtMoTaThuChiTieuDe"
+        android:layout_marginTop="5dp"
+        />
+</RelativeLayout>

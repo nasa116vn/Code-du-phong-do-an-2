@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_QuanLyThuChi">
+
+    <fragment
+        android:id="@+id/nav_QuanLyDanhMucThuChi"
+        android:name="com.example.doantotnghiep.ui.QuanLyDanhMucThuChi.QuanLyDanhMucThuChiFragment"
+        android:label="Quản lý danh mục thu chi"
+        tools:layout="@layout/fragment_quanlydanhmucthuchi" />
+    <fragment
+        android:id="@+id/nav_QuanLyThuChi"
+        android:name="com.example.doantotnghiep.ui.QuanLyThuChi.QuanLyThuChiFragment"
+        android:label="@string/menu_QuanLyThuChi"
+        tools:layout="@layout/fragment_quanlythuchi" />
+
+    <fragment
+        android:id="@+id/nav_QuanLyVi"
+        android:name="com.example.doantotnghiep.ui.QuanLyVi.QuanLyViFragment"
+        android:label="@string/menu_QuanLyVi"
+        tools:layout="@layout/fragment_quanlyvi" />
+
+    <fragment
+        android:id="@+id/nav_QuanLyTaiKhoan"
+        android:name="com.example.doantotnghiep.ui.QuanLyTaiKhoan.QuanLyTaiKhoanFragment"
+        android:label="@string/menu_QuanLyTaiKhoan"
+        tools:layout="@layout/fragment_quanlytaikhoan" />
+
+    <fragment
+        android:id="@+id/nav_KeHoachTietKiem"
+        android:name="com.example.doantotnghiep.ui.KeHoachTietKiem.KeHoachTietKiemFragment"
+        android:label="Kế hoạch tiết kiệm"
+        tools:layout="@layout/fragment_kehoachtietkiem" />
+
+    <fragment
+        android:id="@+id/nav_ThongKeThuChi"
+        android:name="com.example.doantotnghiep.ui.ThongKeThuChi.ThongKeThuChiFragment"
+        android:label="Thống kê thu chi"
+        tools:layout="@layout/fragment_thongkethuchi" />
+</navigation>

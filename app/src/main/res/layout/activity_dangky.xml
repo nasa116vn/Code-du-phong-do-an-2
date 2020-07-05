@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background_fragment"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:background="@drawable/main_background"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/txtTendangnhapdangky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Tên tài khoản"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/editText_TenTaiKhoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Nhập tên tài khoản"
+                android:background="@drawable/main_edittext" />
+
+            <TextView
+                android:id="@+id/txtMatkhaudangky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/matkhau"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/editText_MatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Nhập mật khẩu"
+                android:background="@drawable/main_edittext"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/txtMasodangky"
+                style="@style/WhiteText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mabimat"
+                android:layout_marginTop="15dp"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtLuuydangky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/luuy"
+                android:textColor="#ff0900" />
+
+            <EditText
+                android:id="@+id/editText_MaSoBiMat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Nhập mã số bí mật"
+                android:background="@drawable/main_edittext"
+                android:inputType="numberPassword"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnXoatrangdangky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/main_button"
+            android:onClick="XoaTrang"
+            android:text="@string/xoatrang"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnDangkydangky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/confirm_button"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:onClick="DangKy"
+                android:text="@string/dangky"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnHuyDangKy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/cancel_button"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:onClick="ThoatDangKy"
+                android:text="Hủy"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

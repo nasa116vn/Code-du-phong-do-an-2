@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/option_ChuyenTien"
+    android:title="Chuyển tiền" />
+<item
+    android:id="@+id/option_CapNhat"
+    android:title="Cập nhật"/>
+<item
+    android:id="@+id/option_Xoa"
+    android:title="Xóa"/>
+</menu>

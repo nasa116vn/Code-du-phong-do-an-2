@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option_CapNhatTaiKhoan"
+        android:title="Cập nhật tài khoản" />
+    <item
+        android:id="@+id/option_DoiMatKhau"
+        android:title="Đổi mật khẩu"/>
+    <item
+        android:id="@+id/option_DangXuat"
+        android:title="Đăng xuất"/>
+</menu>

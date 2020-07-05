@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_listview_item">
+
+    <ImageView
+        android:id="@+id/txtIconChuyentien"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/chuyentien"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/txtNgayChuyenTien"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/txtIconChuyentien"
+        android:layout_height="wrap_content"
+        android:text="Ngay chuyen tien"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtTienChuyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="So tien chuyen"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtViChuyenTieuDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtIconChuyentien"
+        android:layout_below="@id/txtNgayChuyenTien"
+        android:text="Từ ví:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/txtViChuyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNgayChuyenTien"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/txtViChuyenTieuDe"
+        android:text="Vi chuyen"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtViNhanTieuDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNgayChuyenTien"
+        android:layout_toLeftOf="@id/txtViNhan"
+        android:text="Đến ví:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/txtViNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTienChuyen"
+        android:layout_marginTop="5dp"
+        android:text="Vi nhan"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
